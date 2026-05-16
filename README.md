@@ -17,13 +17,15 @@ A Laravel package for handling JVZoo Instant Payment Notifications (IPN) with cl
 ```bash
 composer require josmarh/jvzoo-ipn
 
-```md id="k5v9mz"
+```
+
 ## Publish Config
 
 ```bash
 php artisan vendor:publish --tag=jvzoo-ipn-config
 
-```md id="u2x7qp"
+```
+
 ## How It Works
 
 1. JVZoo sends IPN request
@@ -49,7 +51,8 @@ Event::listen(SaleReceived::class, function ($event) {
     // Create user, assign plan, etc.
 });
 
-```md id="m3p8vz"
+```
+
 ## Configuration
 
 ```php
@@ -58,7 +61,8 @@ return [
     'route_prefix' => 'jvzoo',
 ];
 
-```md id="x9v4qn"
+```
+
 ## Webhook URL
 
 POST https://your-domain.com/jvzoo/ipn
