@@ -1,0 +1,35 @@
+{
+    "name": "josmarh/jvzoo-ipn",
+    "description": "Handles JVZoo IPN mechanics",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Joshua Ezeh"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Josmarh\\JVZooIPN\\": "src/",
+            "Josmarh\\JVZooIPN\\Database\\Factories\\": "database/factories/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Josmarh\\JVZooIPN\\JVZooIPNServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/database": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/http": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/events": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/queue": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/contracts": "^10.0|^11.0|^12.0|^13.0"
+    }
+}
