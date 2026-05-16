@@ -1,6 +1,6 @@
 {
     "name": "josmarh/jvzoo-ipn",
-    "description": "Handles JVZoo IPN mechanics",
+    "description": "A Laravel package for handling JVZoo Instant Payment Notifications (IPN) with clean event-driven architecture.",
     "type": "library",
     "license": "MIT",
     "authors": [
